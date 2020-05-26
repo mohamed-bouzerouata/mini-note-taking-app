@@ -1,0 +1,23 @@
+{
+  "name": "mini-note-taking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed-bouzerouata/mini-note-taking-app.git"
+  },
+  "author": "mo dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamed-bouzerouata/mini-note-taking-app/issues"
+  },
+  "homepage": "https://github.com/mohamed-bouzerouata/mini-note-taking-app#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.4"
+  }
+}
